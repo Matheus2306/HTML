@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus</title>
+</head>
+<style>
+    body{
+        background: #2b2b2b;
+    color: white;
+    text-shadow: 2px 2px 2px #636363;
+    }
+    h3{
+        color: #a39f9f;
+        background: #1d1d1d;
+    }
+</style>
+<body>
+    <h1>Aluno</h1>
+    <p><h3>O curso de TI é muito bom, não somente as remunerações, mas tambem a incentivação de criatividade.</h3></p>
+ 
+    <h2>alerta de mensagem! </h2>
+    <p style="text-align: center;">
+    <button onclick="alerta()" style="">alerta</button>
+</p>
+ 
+    <h2>altere a cor do fundo do site clicando em uma das cores abaixo:</h2>
+<p style="text-align: center;"><button onclick="azul()" style="background: blue;">azul</button>
+<button onclick="vermelho()" style="background: red;">vermelho</button>
+<button onclick="verde()" style="background: green;">verde</button>
+</p>
+
+<script>
+    function alerta(){
+    var nome = prompt("Olá, informe seu nome:")
+    alert(`Olá ${nome}!`)
+    }
+
+function azul(){
+    var botao= document.querySelector("body")
+    botao.style.backgroundColor="#0000ff"
+}
+function verde()
+{
+    var botao= document.querySelector("body")
+    botao.style.backgroundColor="#00ff00"
+}
+function vermelho(){
+    var botao= document.querySelector("body")
+    botao.style.backgroundColor="#ff0000"
+}
+
+
+    </script>
+</body>
+</html>
+<!-- document.getElementsByTagName("body")[0].style.background="#fff" como trocar a cor local F12-->
