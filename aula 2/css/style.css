@@ -1,0 +1,5 @@
+body{
+    background: url(../img/Senaiimage.png) no-repeat top/cover;
+}
+/* ./ acessa algum arquivo que esteja dentro da pasta */
+/* ../sai da pasta atual e seleciona outra e da acesso a arquivos de dentro da pasta */
