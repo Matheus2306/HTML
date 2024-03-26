@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 
 body {
-  background: #3e7101;
+  background-image:"../img/Senaiimage.png ";
+  background: green;
   color: black;
   margin: 0;
   padding: 0;
